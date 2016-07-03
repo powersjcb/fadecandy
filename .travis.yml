@@ -1,0 +1,1 @@
+script: cd server && make all
