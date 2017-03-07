@@ -17,6 +17,7 @@ CPP_FILES += \
 INCLUDES += -Isrc
 CLEAN_FILES += src/*.d src/*.o src/httpdocs.cpp
 CPPFLAGS += -Wno-strict-aliasing
+CPPFLAGS += -DLWS_IPV6=OFF
 
 ###########################################################################
 # System Support
